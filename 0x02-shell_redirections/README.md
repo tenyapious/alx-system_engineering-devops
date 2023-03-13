@@ -21,3 +21,4 @@ Tasks in this directory
 
 12. write a script that displays the 10 newest files in the current directory
 
+13. write a script that print lines that appear only once
