@@ -19,3 +19,5 @@ Tasks in this directory
 
 10. Write a script to remove all files with 'js' extension
 
+12. write a script that displays the 10 newest files in the current directory
+
