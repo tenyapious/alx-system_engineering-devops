@@ -13,3 +13,5 @@ Tasks in this directory
 
 6. Write a script that displays the third line of the file iacta
 
+8. write a script to output ls -la into the file ls_cwd_content
+
