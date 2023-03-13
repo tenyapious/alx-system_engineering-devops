@@ -17,3 +17,5 @@ Tasks in this directory
 
 9. write a script  >to duplicate a the last line in a file
 
+10. Write a script to remove all files with 'js' extension
+
