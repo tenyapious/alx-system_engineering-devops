@@ -15,3 +15,5 @@ Tasks in this directory
 
 8. write a script to output ls -la into the file ls_cwd_content
 
+9. write a script  >to duplicate a the last line in a file
+
