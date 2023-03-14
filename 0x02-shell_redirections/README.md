@@ -24,3 +24,6 @@ Tasks in this directory
 13. write a script that print lines that appear only once
 
 14. write a script to display lines containing the pattern 'root' from the file /etc/passwd
+
+15. Write a script to display the number of lines that contain the pattern 'bin' in the file /etc/passwd
+
