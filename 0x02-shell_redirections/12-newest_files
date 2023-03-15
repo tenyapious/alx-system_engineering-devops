@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -printf "\n%AT %p" | head -10 | sort -r
+ls -t | grep -v '^d' | head -10
