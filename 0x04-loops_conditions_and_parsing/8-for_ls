@@ -5,5 +5,5 @@ current_dir=$(ls)
 
 for file in $current_dir;
 do
-	echo "$file"
+	echo "${file#*-}"
 done
