@@ -10,14 +10,19 @@ do
 	then
 		echo "school file exists"
 
-		len=$(<"$file" wc -w)
-		if [ "$len" -lt 1 ];
+		if [ -f "$file" ];
 		then
-			echo "school file is empty"
+			len=$(<"$file" wc -w)
+			if [ "$len" -lt 1 ];
+			then
+				echo "school file is empty"
+			else
+				echo "school file is not empty"
+			fi
 		else
 			echo "school file is not empty"
 		fi
-		if [[ "$file" != *'.'* ]];
+		if [[ "$file" != *'.'* ]] && [ -f "$file" ];
 		then
 			echo "school is a regular file"
 		fi
