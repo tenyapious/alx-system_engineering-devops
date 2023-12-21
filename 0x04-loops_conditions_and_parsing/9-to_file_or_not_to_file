@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+#This script gives you information about the school file
+
+current_dir=$(ls)
+file_exit=0
+
+for file in $current_dir;
+do
+	if [ "$file" = "school" ];
+	then
+		echo "school file exists"
+
+		len=$(<"$file" wc -w)
+		if [ "$len" -lt 1 ];
+		then
+			echo "school file is empty"
+		else
+			echo "school file is not empty"
+		fi
+		if [[ "$file" != *'.'* ]];
+		then
+			echo "school is a regular file"
+		fi
+		file_exit=1
+		break
+	fi
+done
+
+if [ "$file_exit" -lt 1 ];
+then
+	echo "school file does not exist"
+fi
