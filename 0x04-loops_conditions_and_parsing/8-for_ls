@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying the contents of the current directory
+
+current_dir=$(ls)
+
+for file in $current_dir;
+do
+	echo "$file"
+done
